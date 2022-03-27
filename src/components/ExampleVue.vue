@@ -7,6 +7,7 @@
     <h3 class=""> name: {{getData().name}} and email: {{getData().email}}</h3>
     <h3>My email is {{email}}</h3>
     <h4>my phone is {{phone}}</h4>
+    
 </div>
 </template>
 
@@ -21,6 +22,22 @@ export default {
             name: 'Ashish Gupta',
             email: 'Ashish@abc.com',
             phone: 10203030,
+            users: [{
+                    name: 'Gaurav',
+                    email: 'Gaurav@gmail.com',
+                    phone: 10203030
+                },
+                {
+                    name: 'pritesh',
+                    email: 'pritesh@gmail.com',
+                    phone: 10203030
+                },
+                {
+                    name: 'Timorwe',
+                    email: 'Timorwe@gmail.com',
+                    phone: 10203030
+                },
+            ]
         }
     },
     methods: {
